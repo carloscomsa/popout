@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #db537d;
+    border-radius: 10px 0 10px 0;
+    text-transform: uppercase;
+    color: white;
+    line-height: 1.3;
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.container h1 {
+    text-shadow:2px 2px 2px black;
+}
+
+.container-butoane button {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.container-butoane{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#buton-pozitiv {
+    background-color: rgb(42, 192, 42);
+    border: 2px solid black;
+}
+
+#buton-negativ {
+    background-color: transparent;
+    border: 2px solid white;
+}
